@@ -1,0 +1,144 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #413636;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Устанавливаем направление по вертикали */
+  justify-content: center; /* Центрируем по вертикали */
+  align-items: center; /* Центрируем по горизонтали */
+  min-height: 100vh; /* Минимальная высота равна высоте экрана */
+  text-align: center; /* Выравнивание текста по центру */
+  background-image: linear-gradient(to right, #171a38, #472155);
+}
+
+.main {
+  color: #1b8a47;
+}
+
+.input{
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+.searchad{
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1b8a47;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button_godnd{
+  color: #1b8a47;
+  margin: 50px;
+  font-size: 25px;
+}
+
+.button_gotodo{
+  color: #1b8a47;
+  padding: 50px;
+  font-size: 25px;
+}
+
+.button_gotodo:hover{
+  color: #000000;
+}
+
+.button_godnd:hover{
+  color: #000000;
+}
+
+.button_sort{
+  background-color: #ac55ad;;
+  color: #000000;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.button_sort:hover {
+  background-color: #ae27b1; /* Темнее при наведении */
+}
+
+.delete-button {
+  background-color: #1b8a47; /* Красный фон для кнопки удаления */
+}
+
+.delete-button:hover {
+  background-color: #194a2f; /* Темнее при наведении */
+}
+
+.button_add{
+  margin-left: 5px;
+  background-color: #1b8a47;
+  font-size: 15px;
+}
+
+.button_add:hover{
+  background-color: #194a2f;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+      color: #213547;
+      background-color: #ffffff;
+  }
+  a:hover {
+      color: #747bff;
+  }
+  button {
+      background-color: #f9f9f9;
+  }
+  /* styles.css */
+.button {
+  background-color: #1b8a47; /* Зеленый фон */
+  color: white; /* Белый текст */
+  padding: 10px 20px; /* Отступы */
+  border: none; /* Без рамки */
+  border-radius: 5px; /* Закругленные углы */
+  cursor: pointer; /* Указатель при наведении */
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+}
