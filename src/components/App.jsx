@@ -5,7 +5,7 @@ import DndPage from './pages/DndPage';
 
 function App() {
     return (
-      <Router basename="https://sn0ycat.github.io/to-do/">
+      <Router>
         <Routes>
           <Route path="/" element={<TodoPage />} />
           <Route path="/dnd" element={<DndPage />} />
